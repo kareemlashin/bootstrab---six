@@ -7,42 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/jquery-3-4-1-min.js"></script>
-    <script src="js/popper-min.js"></script>
-    <script src="js/bootstrap-min.js"></script>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div id="loading">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-back fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Gym<span>Fit</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars pt-1"></i>
+                </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#HOME">HOME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ml-md-2">
-                        <a class="nav-link" href="#">PAGES</a>
+                        <a class="nav-link" href="#About">About</a>
                     </li>
                     <li class="nav-item ml-md-2">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#SERVICES">SERVICES</a>
                     </li>
-
                     <li class="nav-item ml-md-2">
-                        <a class="nav-link" href="#">MEMEBERSHIP</a>
+                        <a class="nav-link" href="#Galllery">Gallery</a>
                     </li>
-
                     <li class="nav-item ml-md-2">
-                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link" href="#OurClient">testimonial</a>
                     </li>
-
                     <li class="nav-item ml-md-2">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#CONTACT">CONTACT</a>
                     </li>
                 </ul>
                 <div class="ml-auto contact">
@@ -51,23 +62,25 @@
             </div>
         </div>
     </nav>
-    <header>
+    <header id="HOME">
         <div class="overly d-flex justify-content-lg-start align-items-center">
-            <div class="container">
+            <div class="container" data-aos="fade-down" data-aos-duration="2000">
                 <span class="club"> GYM FITNESS CLUB</span>
                 <h1>
-                    STEP UP YOUR<br><span> FITNESS CHALLANGE</span><br>
+                    STEP UP YOUR<br><span class="element"></span><br>
                     WITH US</h1>
-                <button class="my-5"> JOIN US <i class="fas fa-chevron-right ml-3"></i></button>
+                <button data-aos="flip-right" data-aos-duration="1000" class="my-5"> JOIN US <i
+                        class="fas fa-chevron-right ml-3"></i></button>
             </div>
         </div>
     </header>
-    <section class="sec-1 py-5">
+
+    <section class="sec-1 py-5" id="About">
         <div class="container">
             <div class="bar">
                 <div class="row ">
 
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="card-1">
                             <div class="disc px-5">
 
@@ -80,12 +93,13 @@
                                     Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.
                                 </p>
 
-                                <button class="my-3"> <span class="mr-2"> - </span> MORE DETAILS</button>
+                                <button data-aos="flip-right" data-aos-duration="1000" class="my-3"> <span class="mr-2">
+                                        - </span> MORE DETAILS</button>
                             </div>
                             <div class="trans"></div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="card-1">
                             <div class="disc px-5">
 
@@ -98,12 +112,13 @@
                                     Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.
                                 </p>
 
-                                <button class="my-3"> <span class="mr-2"> - </span> MORE DETAILS</button>
+                                <button class="my-3" data-aos="flip-right" data-aos-duration="1000"> <span class="mr-2">
+                                        - </span> MORE DETAILS</button>
                             </div>
                             <div class="trans"></div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="card-1">
                             <div class="disc px-5">
 
@@ -116,7 +131,8 @@
                                     Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.
                                 </p>
 
-                                <button class="my-3"> <span class="mr-2"> - </span> MORE DETAILS</button>
+                                <button class="my-3" data-aos="flip-right" data-aos-duration="1000"> <span class="mr-2">
+                                        - </span> MORE DETAILS</button>
                             </div>
                             <div class="trans"></div>
                         </div>
@@ -126,13 +142,14 @@
             </div>
         </div>
     </section>
-    <section class="sec-2 py-5">
+    <section class="sec-2 py-5 over-x">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="images/bg_5.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-5 ml-md-5 d-flex justify-content-center align-items-center">
+                <div class="col-md-5 ml-md-5 d-flex justify-content-center align-items-center" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <div>
 
                         <h2 class="mb-2"> WE’VE SKILL IN <br> WIDE <span> RANGE OF FITNESS</span>
@@ -148,7 +165,7 @@
                             em ante, dapibus in.
 
                         </p>
-                        <button class="my-3">LEARN MORE</button>
+                        <button class="my-3" data-aos="flip-right" data-aos-duration="1000">LEARN MORE</button>
                     </div>
 
 
@@ -156,20 +173,22 @@
             </div>
         </div>
     </section>
-    <section class="sec-4">
+
+
+    <section class="sec-4 over-x">
         <div class="overly py-5">
             <div class="container py-5 d-flex justify-content-center align-items-center">
-                <div class="py-5 text-center">
+                <div class="py-5 text-center" data-aos="zoom-in-down" data-aos-duration="1000">
                     <h6> DSCOVER YOUR POTENTIAL</h6>
                     <p> BOOK YOUR EARLY SEAT TO GET<br> <span> SUMMER 25% DICSOUNT</span> </p>
-                    <button class="my-5">join us</button>
+                    <button class="my-5" data-aos="flip-right" data-aos-duration="1000">join us</button>
                 </div>
             </div>
         </div>
     </section>
-    <section class="sec-5 py-5">
+    <section class="sec-5 py-5 over-x" id="SERVICES">
         <div class="container text-center py-5">
-            <div class="title-3">
+            <div class="title-3" data-aos="zoom-in-down" data-aos-duration="1000">
                 <h4> OUR SERVICES</h4>
                 <p class="pb-5 pt-3">
                     We offer more than 35 group exercis,
@@ -177,7 +196,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-5 py-5">
                         <div class="disc-5">
 
@@ -191,7 +210,7 @@
                         <div class="trns-5"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-5 py-5">
                         <div class="disc-5">
                             <i class="fas fa-biking py-3"></i>
@@ -205,7 +224,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-5 py-5">
                         <div class="disc-5">
                             <i class="fas fa-heartbeat py-3"></i>
@@ -219,7 +238,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-5 py-5">
                         <div class="disc-5">
                             <i class="fas fa-running py-3"></i>
@@ -233,7 +252,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-5 py-5">
                         <div class="disc-5">
 
@@ -248,7 +267,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-5 py-5">
                         <div class="disc-5">
 
@@ -266,16 +285,17 @@
             </div>
         </div>
     </section>
-    <section class="sec-6 pt-5">
+
+    <section class="sec-6 pt-5 over-x" id="Galllery">
         <div class="container-fluid text-center pt-5">
-            <div class="title-3">
+            <div class="title-3" data-aos="zoom-in-down" data-aos-duration="1000">
                 <h4>OUR GALLERY</h4>
                 <p class="pb-5 pt-3">
                     We offer more than 35 group exercis, aerobic classes each week. </p>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_01.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>EQUIPMENT</h3>
@@ -283,7 +303,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_02.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>PERSONAL EVENT</h3>
@@ -291,7 +311,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_03.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>CARDIO</h3>
@@ -299,7 +319,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_04.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>PESONAL TRINER</h3>
@@ -307,7 +327,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_06.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>personal event</h3>
@@ -315,7 +335,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_07.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>personal event</h3>
@@ -323,7 +343,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_08.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>personal event</h3>
@@ -331,7 +351,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="im-3">
+                    <div class="im-3" data-aos="flip-right" data-aos-duration="1000">
                         <img src="images/gallery_05.jpg" class="img-fluid" alt="">
                         <div class="trans-6 d-flex justify-content-center align-items-center">
                             <h3>CROSS FIT</h3>
@@ -341,9 +361,12 @@
             </div>
         </div>
     </section>
-    <section class="sec-7 ">
+
+
+
+    <section class="sec-7 over-x" id="OurClient">
         <div class="overly py-5">
-            <div class="title-3 text-center pb-5">
+            <div class="title-3 text-center pb-5" data-aos="zoom-in-down" data-aos-duration="1000">
                 <h4>WHAT PEOPLE SAY</h4>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide py-5" data-ride="carousel">
@@ -411,10 +434,10 @@
             </div>
         </div>
     </section>
-    <section class="sec-8 py-5">
+    <section class="sec-8 py-5 over-x">
         <div class="container">
             <div class="py-5">
-                <div class="title-3 text-center pb-5">
+                <div data-aos="zoom-in-down" data-aos-duration="1000" class="title-3 text-center pb-5">
                     <h4> POPULAR COURSES</h4>
                     <p class="py-3">
                         We offer more than 35 group exercis, aerobic classes each week
@@ -423,7 +446,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-8">
                         <img src="images/course_1.jpg" class="img-fluid" alt="">
                         <div class="disc-8 p-3">
@@ -433,7 +456,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-8">
                         <img src="images/course_2.jpg" class="img-fluid" alt="">
                         <div class="disc-8 p-3">
@@ -443,7 +466,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-8">
                         <img src="images/course_3.jpg" class="img-fluid" alt="">
                         <div class="disc-8 p-3">
@@ -453,7 +476,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-8">
                         <img src="images/course_2.jpg" class="img-fluid" alt="">
                         <div class="disc-8 p-3">
@@ -465,12 +488,12 @@
                 </div>
             </div>
             <div class="text-center py-5">
-                <button>SEE ALL COURSES</button>
+                <button data-aos="flip-right" data-aos-duration="1000">SEE ALL COURSES</button>
             </div>
         </div>
 
     </section>
-    <footer class="py-5">
+    <footer class="py-5" id="CONTACT">
         <div class="container">
 
             <div class="row">
@@ -520,7 +543,7 @@
             <div class="bar-end py-2 mt-5">
                 <div class="row">
                     <div class="col-md-10 py-auto">
-                       <div class="pl-md-5"> Gymfit © 2019 , Theme By <span> kareem.com</span></div>
+                        <div class="pl-md-5"> Gymfit © 2019 , Theme By <span> kareem.com</span></div>
 
                     </div>
                     <div class="col-md-2">
@@ -541,6 +564,12 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3-4-1-min.js"></script>
+    <script src="js/popper-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
     <!--
     -->
 </body>
